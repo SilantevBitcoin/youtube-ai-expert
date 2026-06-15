@@ -34,11 +34,15 @@
 
 ## Установка
 
-1. Скачайте папку репозитория (`Code → Download ZIP`) или `git clone`.
-2. Скопируйте папку `youtube-ai-expert/` (с `SKILL.md`) в каталог скиллов Claude Code:
-   - глобально: `~/.claude/skills/youtube-ai-expert/`
-   - или в проект: `<проект>/.claude/skills/youtube-ai-expert/`
-3. Перезапустите сессию. Вызов — по описанию или `/youtube-ai-expert`.
+**Одной командой** (рекомендуется) — через [skills](https://github.com/vercel-labs/skills) от Vercel Labs:
+
+```bash
+npx skills add SilantevBitcoin/youtube-ai-expert
+```
+
+Инструмент сам поставит скилл в Claude Code (и другие совместимые агенты). Перезапустите сессию — скилл вызовется по описанию или командой `/youtube-ai-expert`.
+
+**Вручную:** скачайте `SKILL.md` и положите его в `~/.claude/skills/youtube-ai-expert/SKILL.md` (глобально) или `<проект>/.claude/skills/youtube-ai-expert/SKILL.md`, затем перезапустите сессию.
 
 ## Контекст
 
